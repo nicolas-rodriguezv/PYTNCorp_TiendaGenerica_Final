@@ -82,7 +82,7 @@ public class Controller implements ActionListener {
 			facha.getProductoDAO().actualizarProducto();
 		}
 		if (command.equals("AGREGARPRODUCTO")) {
-			facha.getProductoDAO().crearPorducto();
+			facha.getProductoDAO().crearProducto();
 		}
 
 		if (command.equals("BORRARPRODUCTO")) {
