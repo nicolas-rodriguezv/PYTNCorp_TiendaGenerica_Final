@@ -30,9 +30,9 @@ public class ProvedorDAO {
 		leerArchivoCliente();
 
 		String NIT = msg.leerDatoString("Ingrese el NIT del cliente");
-		String nombreProvedor = msg.leerDatoString("Ingrese el nombre del cliente");
-		int precioCompra = msg.leerDatoEntero("Ingrese la direccion del cliente");
-		int precioVenta = msg.leerDatoEntero("Ingrese el telefono del cliente");
+		String nombreProvedor = msg.leerDatoString("Ingrese el nombre del proveedor");
+		int precioCompra = msg.leerDatoEntero("Ingrese la direccion del proveedor");
+		int precioVenta = msg.leerDatoEntero("Ingrese el telefono del proveedor");
 
 		provedor.add(new ProvedorDTO(NIT, nombreProvedor, precioCompra, precioVenta));
 
